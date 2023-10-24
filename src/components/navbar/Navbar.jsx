@@ -4,7 +4,7 @@ import Sidebar from "../sidebar/Sidebar";
 
 const Navbar = () => {
   return (
-    <div className="navbar" >
+    <div className="navbar">
       <Sidebar />
       <div className="wrapper">
         <motion.span
@@ -15,10 +15,18 @@ const Navbar = () => {
           Sameer Ahmed
         </motion.span>
         <div className="social">
-          <a href="https://github.com/sameer6576" target="_blank">
+          <a
+            href="https://github.com/sameer6576"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/github.png" />
           </a>
-          <a href="https://www.linkedin.com/in/sameer-ahmed-a77317118/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/sameer-ahmed-a77317118/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/linkedin.png" />
           </a>
           <a href="#">
